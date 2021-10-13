@@ -1,0 +1,66 @@
+.login__fundo {
+    background-image: url('../../../assets/img/login-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 160px 0;
+    margin-top: 120px;
+}
+
+.login {
+    max-width: 1260px;
+}
+
+.login__cadastro {
+    background-color: #254872;
+    padding: 187px 0;
+}
+
+.login__cadastro__titulo {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 48px;
+}
+
+.login__cadastro_texto {
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: normal;
+    margin-top: 32px;
+}
+
+.login__cadastro__titulo, .login__cadastro_texto {
+    color: #f9f9f9;
+    padding: 0 113px;
+    text-align: center;
+}
+
+.login__cadastro__botao {
+    border: none;
+    background-color: #f9f9f9;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 32px 167px 0;
+    text-align: center;
+    outline: 0;
+    padding: 0 113px;
+
+}
+
+.login__cadastro__botao:hover {
+    background-color: #cbcbcb;
+    transition: linear 0.2s;
+}
+
+.login__cadastro__botao, .login__cadastro__botao > a {
+    color: #404040;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 14px 0;
+    width: 296px;
+
+}
+
+.login__entrar {
+    background-color: #f9f9f9;
+}

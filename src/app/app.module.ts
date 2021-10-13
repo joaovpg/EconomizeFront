@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { HeroComponent } from './home/hero/hero.component';
+import { LoginComponent } from './home/login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeroComponent } from './home/hero/hero.component';
     HomeComponent,
     CadastroComponent,
     RodapeComponent,
-    HeroComponent
+    HeroComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
