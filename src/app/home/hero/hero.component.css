@@ -1,0 +1,28 @@
+.hero {
+    margin-top: 120px;
+    max-width: 1260px;
+}
+
+.hero__div {
+    background-image: url('../../../assets/img/hero-img.png');
+    width: 618px;
+    height: 200px;
+    margin-bottom: 24px;
+    background-repeat: no-repeat;
+}
+
+.hero__div:nth-child(2) {
+    background-position: center;
+}
+
+.hero__div:nth-child(3) {
+    background-position: bottom;
+
+}
+
+.hero__titulo {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 96px;
+    padding: 89px 0;
+    color: #404040;
+}

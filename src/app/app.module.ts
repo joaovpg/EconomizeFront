@@ -7,6 +7,7 @@ import { NavbarExtComponent } from './navbar-ext/navbar-ext.component';
 import { HomeComponent } from './home/home.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { HeroComponent } from './home/hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RodapeComponent } from './rodape/rodape.component';
     NavbarExtComponent,
     HomeComponent,
     CadastroComponent,
-    RodapeComponent
+    RodapeComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
