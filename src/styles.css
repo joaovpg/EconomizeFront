@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Karla:wght@400;700&display=swap&family=material');
+
+@import 'material-icons/iconfont/material-icons.css';
