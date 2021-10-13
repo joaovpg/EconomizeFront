@@ -1,3 +1,5 @@
+/* Imagem de fundo */
+
 .login__fundo {
     background-image: url('../../../assets/img/login-img.png');
     background-position: center;
@@ -6,9 +8,13 @@
     margin-top: 120px;
 }
 
+/* Container login */
+
 .login {
     max-width: 1260px;
 }
+
+/* Banner cadastro */
 
 .login__cadastro {
     background-color: #254872;
@@ -49,7 +55,7 @@
 
 .login__cadastro__botao:hover {
     background-color: #cbcbcb;
-    transition: linear 0.2s;
+    transition: all 0.2s;
 }
 
 .login__cadastro__botao, .login__cadastro__botao > a {
@@ -61,6 +67,65 @@
 
 }
 
+/* Área login */
+
 .login__entrar {
     background-color: #f9f9f9;
+}
+
+.login__entrar__img {
+    margin: 120px 193px 0;
+}
+
+.login__form{
+    max-width: 511px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+
+.login__form__label {
+    color: #404040;
+    font-family: 'Material Icons', sans-serif;
+    font-size: 24px;
+}
+
+.login__form__input {
+    background-color: #e7e7e7;
+    border: none;
+    color: #404040;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 16px;
+    width: calc(100% - 45px);
+}
+
+.login__form__senha, .login__form__email {
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    margin-top: 24px;
+    padding: 24px;
+    display: flex;
+    width: 100%;
+}
+
+.login__form__botao {
+    border: none;
+    border-radius: 50px;
+    background-color: #254872;
+    color: #f9f9f9;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    margin-top: 24px;
+    padding: 16px;
+    width: 190px;
+}
+
+.login__form__botao:hover {
+    background-color: #264a75de;
+    transition: all 0.2s;
 }
