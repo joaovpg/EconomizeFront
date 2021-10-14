@@ -9,6 +9,8 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { HeroComponent } from './home/hero/hero.component';
 import { LoginComponent } from './home/login/login.component';
+import { SobreComponent } from './home/sobre/sobre.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { LoginComponent } from './home/login/login.component';
     CadastroComponent,
     RodapeComponent,
     HeroComponent,
-    LoginComponent
+    LoginComponent,
+    SobreComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,54 @@
+.sobre {
+    margin-top: 120px;
+    max-width: 1260px;
+}
+.sobre__titulo {
+    color: #404040;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 72px;
+    text-align: center;
+}
+
+.container__mensagem {
+    margin-top: 24px;
+}
+
+.sobre__mensagem {
+    margin-top: 24px;
+}
+.sobre__mensagem__pessoa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre__mensagem__img {
+    border-radius: 100%;
+}
+
+.sobre__mensagem__icons{
+    margin-top: 16px;
+}
+
+.sobre__mensagem__icone, .sobre__mensagem__icone > fa-icon {
+    font-size: 21px;
+    color: #404040;
+}
+
+.sobre__mensagem__icone > fa-icon {
+    padding: 0 4px;
+}
+
+
+.sobre__mensagem__texto {
+    border-radius: 0 50px 50px;
+    background-color: #254872;
+    color: #f9f9f9;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    padding: 24px;
+}
+
+.sobre__mensagem__texto--bordaDireita {
+    border-radius: 50px 0 50px 50px;
+}
