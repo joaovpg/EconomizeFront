@@ -1,0 +1,93 @@
+/* Container */
+.cadastro {
+    margin-top: 120px;
+    max-width: 1260px;
+}
+
+/* Titulo */
+
+.cadastro__texto {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 68px;
+    text-align: center;
+    color: #404040;
+}
+
+/* Icones */
+
+.icone__cadastro {
+    margin-top: 39px;
+    margin-bottom: 39px;
+    text-align: center;
+    font-family: 'Material Icons', sans-serif;
+    color: #254872;
+    font-size: 45px;
+}
+
+/* Formulario */
+
+.form__cadastro{
+    margin: 170px 0;
+}
+
+.form__cadastro__titulo {
+    font-family: 'Karla', sans-serif;
+    font-size: 34px;
+    color: #254872;
+    text-align: center;
+}
+
+.form__texto{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+}
+
+
+/* Inputs e labels*/
+
+.input__container{
+    position: relative;
+}
+
+.input__name, .input__email, .input__senha, .input__senhaC {
+    margin-top: 26px;
+    border: 0;
+    border-bottom: 2px solid #254872;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.label__name, .label__email, .label__senha, .label__senhaC {
+    margin-top: 26px;
+    color: #254872;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 16px;
+    cursor: text;
+    box-sizing: border-box;
+}
+
+.cadastro__botao {
+    border: none;
+    border-radius: 50px;
+    background-color: #254872;
+    color: #f9f9f9;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    margin-top: 24px;
+    padding: 16px;
+    width: 200px;
+    height: 53px;
+}
+
+/* Imagem cadastro */
+
+.img__cadastro {
+    background-image: url('../../assets/img/cadastro-img.png');
+    margin-top: 67px;
+    width: 725px;
+    height: 727px;
+    background-repeat: no-repeat;
+}
