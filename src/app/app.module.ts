@@ -11,6 +11,8 @@ import { HeroComponent } from './home/hero/hero.component';
 import { LoginComponent } from './home/login/login.component';
 import { SobreComponent } from './home/sobre/sobre.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PerfilComponent } from './perfil/perfil.component';
+import { NavbarIntComponent } from './navbar-int/navbar-int.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeroComponent,
     LoginComponent,
     SobreComponent,
+    PerfilComponent,
+    NavbarIntComponent,
   ],
   imports: [
     BrowserModule,

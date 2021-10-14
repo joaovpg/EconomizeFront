@@ -1,0 +1,36 @@
+.menu {
+    width: 100wv;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu__img{
+    margin: 24px;
+}
+
+.menu__lista {
+    list-style: none;
+    margin-right: 24px; 
+    
+}
+
+.menu__lista__items {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline;
+    padding: 12px;
+}
+
+.menu__lista__items > a {
+    text-decoration: none;
+    color: #404040;
+}
+
+.menu__lista__items:hover{
+    cursor: pointer;
+    border-bottom: solid 5px#254872;
+    transition: ease-out 0.1s;
+    color: #254872;
+}
