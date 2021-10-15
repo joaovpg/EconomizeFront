@@ -2,7 +2,7 @@
     width: 100wv;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .menu__img{
