@@ -5,39 +5,42 @@
 }
 
 /* Div perfil */
+
+.area__perfil {
+    display: flex;
+    flex-direction: row;
+}
 .img__perfil {
-    width: 180px;
     border: 100%;
-    margin-left: 120px;
 }
 
 .titulo__perfil {
-    margin-left: 120px;
+    margin-left: 24px;
 }
 
 
 .nome__usuario {
     font-family: 'Fredericka the Great', cursive;
     font-size: 38px;
-    margin-left: 20px;
 }
 
 .paragrafo__perfil {
     font-family: 'Karla', sans-serif;
-    margin-top: 20px;
+    margin-top: 8px;
+    max-width: 321px;
 }
 
+
+/* Divs, inputs e titulo - dados */
+
 .dados {
-    margin-left: 120px;
 }
 
 .titulo__dados {
-    text-align: center;
     font-family: 'Fredericka the Great', cursive;
     font-size: 38px;
 }
 
-/* Divs, inputs e titulo - dados */
 
 .input__dados {
     margin-top: 35px;
@@ -82,12 +85,10 @@
 /* Divs, inputs e titulo - senha */
 
 .senha {
-    margin-left: 90px;
-    margin-top: 36px;
+    margin-top: 40px;
 }
 
 .titulo__senha{
-    text-align: center;
     font-family: 'Fredericka the Great', cursive;
     font-size: 38px;
 }
@@ -135,18 +136,20 @@
 /* Divs Excluir */
 
 .excluir {
-    margin-left: 90px;
-    margin-top: 36px;
-    float: right;
+    margin-top: 40px;
 }
 
 .titulo__excluir {
-    text-align: center;
     font-family: 'Fredericka the Great', cursive;
     font-size: 38px;
 }
 
-
+.excluir__paragrafo {
+    font-family: 'Karla', sans-serif;
+    max-width: 403px;
+    margin-top: 24px;
+    font-size: 18px;
+}
 
 .botao__excluir {
     border: none;
@@ -170,6 +173,5 @@
     background-repeat: no-repeat;
     overflow: hidden;
     margin-top: 120px;
-    margin-left: 120px;
 }
 

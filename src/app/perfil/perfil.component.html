@@ -1,51 +1,54 @@
 <app-navbar-int></app-navbar-int>
 <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-md-2">
-         <img class="img__perfil" src="../../assets/img/img-perfil.png">
+    <div class="row justify-content-around">
+      <div class="col-6">
+        <div class="area__perfil">
+          <div class="">
+            <img class="img__perfil" src="../../assets/img/img-perfil.png" width="165px" height="165px">
+          </div>
+          <div class="titulo__perfil">
+            <h1 class="nome__usuario">Olá, João</h1>
+            <p class="paragrafo__perfil">Mude seu nome, altere sua senha ou exclua sua conta</p>
+          </div>
+        </div>
+        <div class="col-md-6 ilustracao__perfil"></div>
       </div>
-      <div class="col-md-3 titulo__perfil">
-          <h1 class="nome__usuario">Olá, João</h1>
-          <p class="paragrafo__perfil">Mude seu nome, altere sua senha ou exclue sua conta</p>
-      </div>
-      <div class="col-md-4 dados"> 
-        <h1 class="titulo__dados">Meus dados</h1>
-        <form action="">
-            <div class="input__dados">
-                <label class="label__name">Nome completo</label>
-                <input class="input__name" type="text"><br>
-                <label class="label__email">E-mail</label>
-                <input class="input__email" type="email"><br>
-                <input class="botao__dados" type="button" value="Salvar">
+      <div class="col-md-4">
+        <div class="dados"> 
+          <h1 class="titulo__dados">Meus dados</h1>
+          <form action="">
+              <div class="input__dados">
+                  <label class="label__name">Nome completo</label>
+                  <input class="input__name" type="text"><br>
+                  <label class="label__email">E-mail</label>
+                  <input class="input__email" type="email"><br>
+                  <input class="botao__dados" type="button" value="Salvar">
+              </div>
+          </form> 
+        </div>
+        <div class="senha"> 
+          <h1 class="titulo__senha">Altere sua senha</h1>
+          <form action="">
+            <div class="input__senha">
+                  <label class="label__senhaA">Senha antiga</label>
+                  <input class="input__senhaA" type="text">
+                  <label class="label__senhaN">Nova senha</label>
+                  <input class="input__senhaN" type="password">
+                  <label class="label__senhaC">Confirme nova senha</label>
+                  <input class="input__senhaC" type="password">
+                  <input class="botao__senha" type="button" value="Alterar senha">
             </div>
-        </form>    
+          </form>
+        </div>
+        <div class="excluir"> 
+          <form action="">  
+            <h1 class="titulo__excluir">Exclua sua conta</h1>
+            <p class="excluir__paragrafo">Cansado de economizar e deixar suas contas em dia? Exclua sua conta</p>
+            <div class="input__excluir">
+              <input class="botao__excluir" type="button" value="Excluir conta">
+            </div>
+          </form> 
+        </div>
       </div>
     </div>
-    <div class="row justify-content-start">
-      <div class="col-md-6 ilustracao__perfil">
-      </div>
-      <div class="col-md-4 senha"> 
-        <h1 class="titulo__senha">Altere sua senha</h1>
-        <form action="">
-          <div class="input__senha">
-                <label class="label__senhaA">Senha antiga</label>
-                <input class="input__senhaA" type="text"><br>
-                <label class="label__senhaN">Nova senha</label>
-                <input class="input__senhaN" type="password"><br>
-                <label class="label__senhaC">Confirme nova senha</label>
-                <input class="input__senhaC" type="password"><br>
-                <input class="botao__senha" type="button" value="Alterar senha">
-          </div>
-        </form>
-      </div>
-      </div>>
-      <div class="col-md-4 excluir"> 
-          <h1 class="titulo__excluir">Exclua sua conta</h1>
-          <p class="paragrafo__perfil">Cansado de economizar e deixar suas contas em dia? Exclua sua conta</p>
-        <form action="">
-          <div class="input__excluir">
-              <input class="botao__excluir" type="button" value="Excluir conta">
-        </div>
-      </form> 
-    </div>   
 </div>  
