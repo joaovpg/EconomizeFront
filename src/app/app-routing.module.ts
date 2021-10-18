@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CadastroComponent } from './cadastro/cadastro.component';
-import { HomeComponent } from './home/home.component';
-import { PerfilComponent } from './perfil/perfil.component';
+import { CadastroComponent } from './components/public/cadastro/cadastro.component';
+import { HomeComponent } from './components/public/home/home.component';
+import { PerfilComponent } from './components/private/perfil/perfil.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},

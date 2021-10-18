@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarExtComponent } from './navbar-ext/navbar-ext.component';
-import { HomeComponent } from './home/home.component';
-import { CadastroComponent } from './cadastro/cadastro.component';
-import { RodapeComponent } from './rodape/rodape.component';
-import { HeroComponent } from './home/hero/hero.component';
-import { LoginComponent } from './home/login/login.component';
-import { SobreComponent } from './home/sobre/sobre.component';
+import { NavbarExtComponent } from './components/public/navbar-ext/navbar-ext.component';
+import { HomeComponent } from './components/public/home/home.component';
+import { CadastroComponent } from './components/public/cadastro/cadastro.component';
+import { RodapeComponent } from './components/rodape/rodape.component';
+import { HeroComponent } from './components/public/home/hero/hero.component';
+import { LoginComponent } from './components/public/home/login/login.component';
+import { SobreComponent } from './components/public/home/sobre/sobre.component';
+import { PerfilComponent } from './components/private/perfil/perfil.component';
+import { NavbarIntComponent } from './components/private/navbar-int/navbar-int.component';
+
+// Bibliotecas
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { PerfilComponent } from './perfil/perfil.component';
-import { NavbarIntComponent } from './navbar-int/navbar-int.component';
 
 @NgModule({
   declarations: [

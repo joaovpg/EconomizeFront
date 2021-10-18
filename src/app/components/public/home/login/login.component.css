@@ -1,7 +1,7 @@
 /* Imagem de fundo */
 
 .login__fundo {
-    background-image: url('../../../assets/img/login-img.png');
+    background-image: url('../../../../../assets/img/login-img.png');
     background-position: right center;
     background-repeat: no-repeat;
     padding: 160px 0;
