@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarExtComponent } from './components/public/navbar-ext/navbar-ext.component';
 import { HomeComponent } from './components/public/home/home.component';
 import { CadastroComponent } from './components/public/cadastro/cadastro.component';
-import { RodapeComponent } from './components/rodape/rodape.component';
+import { RodapeComponent } from './components/public/rodape/rodape.component';
 import { HeroComponent } from './components/public/home/hero/hero.component';
 import { LoginComponent } from './components/public/home/login/login.component';
 import { SobreComponent } from './components/public/home/sobre/sobre.component';

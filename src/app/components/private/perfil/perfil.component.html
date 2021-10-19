@@ -17,27 +17,33 @@
         <div class="dados"> 
           <h1 class="titulo__dados">Meus dados</h1>
           <form action="">
-              <div class="input__dados">
-                  <label class="label__name">Nome completo</label>
-                  <input class="input__name" type="text"><br>
-                  <label class="label__email">E-mail</label>
-                  <input class="input__email" type="email"><br>
-                  <input class="botao__dados" type="button" value="Salvar">
+              <div class="form__group">
+                <input class="form__control" type="text" placeholder="Nome" name="nome" required>
+                <label class="form__label" for="nome" required>Nome completo</label>
               </div>
+              <div class="form__group">
+                <input class="form__control" type="email" placeholder="E-mail" name="email" required>
+                <label class="form__label" for="email" required>E-mail</label>
+              </div>
+              <input class="botao__dados" type="button" value="Salvar">
           </form> 
         </div>
         <div class="senha"> 
           <h1 class="titulo__senha">Altere sua senha</h1>
           <form action="">
-            <div class="input__senha">
-                  <label class="label__senhaA">Senha antiga</label>
-                  <input class="input__senhaA" type="text">
-                  <label class="label__senhaN">Nova senha</label>
-                  <input class="input__senhaN" type="password">
-                  <label class="label__senhaC">Confirme nova senha</label>
-                  <input class="input__senhaC" type="password">
-                  <input class="botao__senha" type="button" value="Alterar senha">
+            <div class="form__group">
+              <input class="form__control" type="text" placeholder="Senha Atual" required>
+              <label class="form__label">Senha atual</label>
             </div>
+            <div class="form__group">
+              <input class="form__control" type="password" placeholder="Nova senha" required>
+              <label class="form__label">Nova senha</label>
+            </div>
+            <div class="form__group">
+              <input class="form__control" type="password" placeholder="Confirmação da senha" required>
+              <label class="form__label">Confirmação da senha</label>
+            </div>
+            <input class="botao__senha" type="button" value="Alterar senha">
           </form>
         </div>
         <div class="excluir"> 
