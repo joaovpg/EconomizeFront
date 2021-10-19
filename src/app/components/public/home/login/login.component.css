@@ -4,8 +4,8 @@
     background-image: url('../../../../../assets/img/login-img.png');
     background-position: right center;
     background-repeat: no-repeat;
-    padding: 160px 0;
-    margin-top: 120px;
+    padding: 16rem 0;
+    margin-top: 12rem;
 }
 
 /* Container login */
@@ -23,15 +23,15 @@
 
 .login__cadastro__titulo {
     font-family: 'Fredericka the Great', cursive;
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 
 .login__cadastro_texto {
     font-family: 'Karla', sans-serif;
-    font-size: 24px;
-    font-weight: 200;
+    font-size: 2.4rem;
+    font-weight: 300;
     line-height: normal;
-    margin-top: 32px;
+    margin-top: 3.2rem;
 }
 
 .login__cadastro__titulo, .login__cadastro_texto {
@@ -44,7 +44,7 @@
     border: none;
     background-color: #f9f9f9;
     font-family: 'Karla', sans-serif;
-    font-size: 18px;
+    font-size: 1.6rem;
     font-weight: bold;
     margin: 32px 167px 0;
     text-align: center;
@@ -87,28 +87,28 @@
 }
 
 .login__form__label {
-    color: #404040;
+    color: var(--var-preto);
     font-family: 'Material Icons', sans-serif;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 .login__form__input {
-    background-color: #e7e7e7;
+    background-color: var(--var-cinza);
     border: none;
-    color: #404040;
-    font-family: 'Karla', sans-serif;
-    font-size: 18px;
+    color: var(--var-preto);
+    font-family: var(--fonte-karla);
+    font-size: 1.6rem;
     font-weight: bold;
     outline: 0;
-    padding-left: 16px;
+    padding-left: 1.6rem;
     width: calc(100% - 45px);
 }
 
 .login__form__senha, .login__form__email {
-    background-color: #e7e7e7;
+    background-color: var(--var-cinza);
     border-radius: 5px;
-    margin-top: 24px;
-    padding: 24px;
+    margin-top: 2.4rem;
+    padding: 2.4rem;
     display: flex;
     width: 100%;
 }
@@ -116,12 +116,12 @@
 .login__form__botao {
     border: none;
     border-radius: 50px;
-    background-color: #254872;
-    color: #f9f9f9;
+    background-color: var(--var-azul);
+    color: var(--var-branco);
     font-family: 'Karla', sans-serif;
-    font-size: 18px;
-    margin-top: 24px;
-    padding: 16px;
+    font-size: 1.6rem;
+    margin-top: 2.4rem;
+    padding: 1.6rem;
     width: 190px;
 }
 

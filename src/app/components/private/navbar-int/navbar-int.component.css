@@ -11,26 +11,26 @@
 
 .menu__lista {
     list-style: none;
-    margin-right: 24px; 
+    margin-right: 2.4rem; 
     
 }
 
 .menu__lista__items {
-    font-family: 'Karla', sans-serif;
+    font-family: var(--fonte-karla);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.6rem;
     display: inline;
-    padding: 12px;
+    padding: 1.2rem;
 }
 
 .menu__lista__items > a {
     text-decoration: none;
-    color: #404040;
+    color: var(--var-preto);
 }
 
 .menu__lista__items:hover{
     cursor: pointer;
-    border-bottom: solid 5px#254872;
+    border-bottom: solid 5px var(--var-azul);
     transition: ease-out 0.1s;
-    color: #254872;
+    color: var(--var-azul);
 }

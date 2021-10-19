@@ -1,7 +1,7 @@
 /* Container */
 .container {
     max-width: 1260px;
-    margin-top: 120px;
+    margin-top: 12rem;
 }
 
 /* Div perfil */
@@ -14,31 +14,24 @@
     border: 100%;
 }
 
-.titulo__perfil {
-    margin-left: 24px;
-}
-
-
-.nome__usuario {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 38px;
+.texto__perfil {
+    margin-left: 2.4rem;
 }
 
 .paragrafo__perfil {
-    font-family: 'Karla', sans-serif;
-    margin-top: 8px;
-    max-width: 321px;
+    font-family: var(--fonte-karla);
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+    max-width: 300px;
 }
 
 
 /* Divs, inputs e titulo - dados */
 
-.dados {
-}
-
-.titulo__dados {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 38px;
+.titulo__perfil, .titulo__dados, .titulo__senha, .titulo__excluir {
+    color: var(--var-preto);
+    font-family: var(--fonte-fred);
+    font-size: 3.8rem;
 }
 
 
@@ -49,7 +42,7 @@
 .input__name, .input__email {
     margin-top: 34px;
     border: 0;
-    border-bottom: 2px solid #254872;
+    border-bottom: 2px solid var(--var-azul);
     outline: none;
     box-sizing: border-box;
     width: 100%;
@@ -57,11 +50,11 @@
 
 .label__name, .label__email {
     margin-top: 34px;
-    color: #254872;
+    color: var(--var-azul);
     display: flex;
     align-items: center;
     position: absolute;
-    font-size: 16px;
+    font-size: 1.6rem;
     cursor: text;
     box-sizing: border-box;
 }
@@ -86,11 +79,6 @@
 
 .senha {
     margin-top: 40px;
-}
-
-.titulo__senha{
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 38px;
 }
 
 
@@ -137,11 +125,6 @@
 
 .excluir {
     margin-top: 40px;
-}
-
-.titulo__excluir {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 38px;
 }
 
 .excluir__paragrafo {

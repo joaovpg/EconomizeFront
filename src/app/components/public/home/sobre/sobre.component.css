@@ -1,20 +1,20 @@
 .sobre {
-    margin-top: 120px;
+    margin-top: 12rem;
     max-width: 1260px;
 }
 .sobre__titulo {
-    color: #404040;
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 72px;
+    color: var(--var-preto);
+    font-family: var(--fonte-fred);
+    font-size: 7.2rem;
     text-align: center;
 }
 
 .container__mensagem {
-    margin-top: 24px;
+    margin-top: 2.4rem;
 }
 
 .sobre__mensagem {
-    margin-top: 24px;
+    margin-top: 2.4rem;
 }
 .sobre__mensagem__pessoa{
     display: flex;
@@ -27,26 +27,27 @@
 }
 
 .sobre__mensagem__icons{
-    margin-top: 16px;
+    margin-top: 1.6rem;
 }
 
 .sobre__mensagem__icone, .sobre__mensagem__icone > fa-icon {
-    font-size: 21px;
-    color: #404040;
+    font-size: 2.1rem;
+    color: var(--var-preto);
 }
 
 .sobre__mensagem__icone > fa-icon {
-    padding: 0 4px;
+    padding: 0 0.4rem;
 }
 
 
 .sobre__mensagem__texto {
     border-radius: 0 50px 50px;
-    background-color: #254872;
-    color: #f9f9f9;
+    background-color: var(--var-azul);
+    color: var(--var-branco);
     font-family: 'Karla', sans-serif;
-    font-size: 18px;
-    padding: 24px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 2.4rem;
 }
 
 .sobre__mensagem__texto--bordaDireita {
@@ -90,5 +91,5 @@
   
     border-top: 0px solid transparent;
     border-bottom: 20px solid transparent; 
-    border-right: 20px solid #254872; 
+    border-right: 20px solid var(--var-azul); 
   }
