@@ -15,6 +15,11 @@ import { NavbarIntComponent } from './components/private/navbar-int/navbar-int.c
 
 // Bibliotecas
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAnalytics,getAnalytics,ScreenTrackingService,UserTrackingService } from '@angular/fire/analytics';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -32,9 +37,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAnalytics(() => getAnalytics()),
+    provideAuth(() => getAuth()),
+    provideFirestore(() => getFirestore())
   ],
-  providers: [],
+  providers: [
+    ScreenTrackingService,UserTrackingService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
