@@ -22,6 +22,8 @@ import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+import { TransacoesComponent } from './components/private/transacoes/transacoes.component';
+import { InvestimentosComponent } from './components/private/investimentos/investimentos.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
     SobreComponent,
     PerfilComponent,
     NavbarIntComponent,
+    TransacoesComponent,
+    InvestimentosComponent,
   ],
   imports: [
     BrowserModule,

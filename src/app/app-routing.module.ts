@@ -3,12 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { CadastroComponent } from './components/public/cadastro/cadastro.component';
 import { HomeComponent } from './components/public/home/home.component';
 import { PerfilComponent } from './components/private/perfil/perfil.component';
+import { TransacoesComponent } from './components/private/transacoes/transacoes.component';
+import { InvestimentosComponent } from './components/private/investimentos/investimentos.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'cadastro', component: CadastroComponent },
   { path: 'perfil', component: PerfilComponent},
-  { path: '', redirectTo: '/home', pathMatch: 'full'},
+  { path: 'transacoes', component: TransacoesComponent },
+  { path: 'investimentos', component: InvestimentosComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 
 @NgModule({
