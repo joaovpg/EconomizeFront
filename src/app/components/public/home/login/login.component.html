@@ -11,15 +11,19 @@
                 <form class="login__form">
                     <div class="login__form__email" >
                         <label class="login__form__label">mail</label>
-                        <input class="login__form__input" type="email" placeholder="E-mail">
+                        <input class="login__form__input" type="email" placeholder="E-mail" name="emailControl" #emailControl="ngModel" [(ngModel)]="email" email required>
                     </div>
                     <div class="login__form__senha">
                         <label class="login__form__label">lock</label>
-                        <input class="login__form__input" type="password" placeholder="Senha">
+                        <input class="login__form__input" type="password" placeholder="Senha" name="senhaControl" #senhaControl="ngModel" [(ngModel)]="senha" senha required>
+                    </div>
+                    <div *ngIf="emailControl.invalid" class="login__email__erro">
+                        <div *ngIf="emailControl.errors?.required">O e-mail é obrigatório</div>
+                        <div *ngIf="emailControl.errors?.email">O e-mail é inválido</div>
                     </div>
                     <div>
                         <a href="">Esqueceu sua senha?</a>
-                        <a href="perfil"><input class="login__form__botao" type="button" value="Entrar"></a>
+                        <input class="login__form__botao" type="button" value="Entrar" (click)="logar()">
                     </div>
                 </form>
             </div>

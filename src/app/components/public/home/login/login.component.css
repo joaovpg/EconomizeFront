@@ -104,6 +104,13 @@
     width: calc(100% - 45px);
 }
 
+.login__email__erro {
+    color: var(--var-vermelho);
+    font-size: 1.4rem;
+    font-family: var(--fonte-karla);
+    padding: 0.8rem 0 0 0;
+}
+
 .login__form__senha, .login__form__email {
     background-color: var(--var-cinza);
     border-radius: 5px;
