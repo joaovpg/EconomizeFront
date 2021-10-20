@@ -70,20 +70,28 @@
 /* Área login */
 
 .login__entrar {
+    align-items: center;
     background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2.4rem;
 }
 
 .login__entrar__img {
-    margin: 120px 193px 0;
+    max-width: 243px;
+    max-height: 178px;
+    min-width: 115px;
+    min-height: 85px;
 }
 
 .login__form{
-    max-width: 511px;
+    align-items: flex-end;
+    align-content: center;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    align-items: flex-end;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .login__form__label {
@@ -127,7 +135,6 @@
     color: var(--var-branco);
     font-family: 'Karla', sans-serif;
     font-size: 1.6rem;
-    margin-top: 2.4rem;
     padding: 1.6rem;
     width: 190px;
 }
@@ -135,4 +142,25 @@
 .login__form__botao:hover {
     background-color: #264a75de;
     transition: all 0.2s;
+}
+
+.login__form__resetSenha{
+    color: var(--var-preto);
+    font-family: var(--fonte-karla);
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.login__form__resetSenha:hover{
+    color: var(--var-vermelho);
+    transition: all 100ms;
+}
+
+.login__form__action {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+    width: 100%;
+
 }

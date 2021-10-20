@@ -7,7 +7,7 @@
                 <a href="cadastro"><button class="login__cadastro__botao">Crie sua conta</button></a>
             </div>
             <div class="col-md-6 login__entrar">
-                <img class="login__entrar__img" src="../../../../../assets/img/login-logo.png" width="243px" height="178px">
+                <img class="login__entrar__img" src="../../../../../assets/img/login-logo.png">
                 <form class="login__form">
                     <div class="login__form__email" >
                         <label class="login__form__label">mail</label>
@@ -21,8 +21,8 @@
                         <div *ngIf="emailControl.errors?.required">O e-mail é obrigatório</div>
                         <div *ngIf="emailControl.errors?.email">O e-mail é inválido</div>
                     </div>
-                    <div>
-                        <a href="">Esqueceu sua senha?</a>
+                    <div class="login__form__action">
+                        <a class="login__form__resetSenha" href="">Esqueceu sua senha?</a>
                         <input class="login__form__botao" type="button" value="Entrar" (click)="logar()">
                     </div>
                 </form>
