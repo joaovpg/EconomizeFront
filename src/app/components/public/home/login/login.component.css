@@ -17,17 +17,21 @@
 /* Banner cadastro */
 
 .login__cadastro {
-    background-color: #254872;
-    padding: 187px 0;
+    background-color: var(--var-azul);
+    padding: 187px 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .login__cadastro__titulo {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: var(--fonte-fred);
     font-size: 4.8rem;
 }
 
 .login__cadastro_texto {
-    font-family: 'Karla', sans-serif;
+    font-family: var(--fonte-karla);
     font-size: 2.4rem;
     font-weight: 300;
     line-height: normal;
@@ -35,18 +39,17 @@
 }
 
 .login__cadastro__titulo, .login__cadastro_texto {
-    color: #f9f9f9;
-    padding: 0 113px;
+    color: var(--var-branco);
     text-align: center;
 }
 
 .login__cadastro__botao {
     border: none;
-    background-color: #f9f9f9;
-    font-family: 'Karla', sans-serif;
+    background-color: var(--var-branco);
+    font-family: var(--fonte-karla);
     font-size: 1.6rem;
     font-weight: bold;
-    margin: 32px 167px 0;
+    margin-top: 3.2rem;
     text-align: center;
     outline: 0;
     padding: 0 113px;
@@ -54,12 +57,12 @@
 }
 
 .login__cadastro__botao:hover {
-    background-color: #cbcbcb;
+    background-color: var(--var-cinza);
     transition: all 0.2s;
 }
 
 .login__cadastro__botao, .login__cadastro__botao > a {
-    color: #404040;
+    color: var(--var-preto);
     border-radius: 50px;
     text-decoration: none;
     padding: 14px 0;

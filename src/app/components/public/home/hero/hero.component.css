@@ -5,14 +5,16 @@
 .hero {
     margin-top: 12rem;
     max-width: 1260px;
+    display: flex;
+    align-items: center;
 }
 
 .hero__div {
     background-image: url('../../../../../assets/img/hero-img.png');
-    width: 618px;
+    background-repeat: no-repeat;
+    max-width: 618px;
     height: 200px;
     margin-bottom: 24px;
-    background-repeat: no-repeat;
 }
 
 .hero__div:nth-child(2) {
@@ -27,6 +29,5 @@
 .hero__titulo {
     font-family: var(--fonte-fred);
     font-size: 9.6rem;
-    padding: 9rem 0;
     color: var(--var-preto);
 }
