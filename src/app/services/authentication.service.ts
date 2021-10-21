@@ -7,10 +7,9 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
   providedIn: 'root'
 })
 export class AuthenticationService {
-  user!: Observable<firebase.User | null>
+  user: Observable<firebase.User | null>
   constructor(private auth: AngularFireAuth) { 
-    this.user = this.auth.
-    authState;
+    this.user = this.auth.authState;
   }
 
   login(email: string, senha: string): Promise<firebase.auth.UserCredential>{

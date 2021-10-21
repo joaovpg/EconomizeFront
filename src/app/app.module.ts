@@ -12,6 +12,8 @@ import { LoginComponent } from './components/public/home/login/login.component';
 import { SobreComponent } from './components/public/home/sobre/sobre.component';
 import { PerfilComponent } from './components/private/perfil/perfil.component';
 import { NavbarIntComponent } from './components/private/navbar-int/navbar-int.component';
+import { TransacoesComponent } from './components/private/transacoes/transacoes.component';
+import { InvestimentosComponent } from './components/private/investimentos/investimentos.component';
 
 // Bibliotecas
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -22,8 +24,10 @@ import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
-import { TransacoesComponent } from './components/private/transacoes/transacoes.component';
-import { InvestimentosComponent } from './components/private/investimentos/investimentos.component';
+
+import { AuthguardService } from './services/authguard.service';
+import { UserNotAuthComponent } from './components/public/user-not-auth/user-not-auth.component';
+
 
 @NgModule({
   declarations: [
@@ -39,6 +43,7 @@ import { InvestimentosComponent } from './components/private/investimentos/inves
     NavbarIntComponent,
     TransacoesComponent,
     InvestimentosComponent,
+    UserNotAuthComponent,
   ],
   imports: [
     BrowserModule,
@@ -49,7 +54,7 @@ import { InvestimentosComponent } from './components/private/investimentos/inves
     AngularFirestoreModule,
     AngularFireAuthModule
   ],
-  providers: [],
+  providers: [AuthguardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
