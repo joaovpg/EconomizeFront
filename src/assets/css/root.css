@@ -10,3 +10,10 @@
     font-size: 62.5%;
 }
 
+body {
+    background-color: var(--var-branco);
+}
+
+th {
+    font-weight: bold;
+}
