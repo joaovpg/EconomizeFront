@@ -27,6 +27,7 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 
 import { AuthguardService } from './services/authguard.service';
 import { UserNotAuthComponent } from './components/public/user-not-auth/user-not-auth.component';
+import { ChartModule } from 'primeng/chart';
 
 
 @NgModule({
@@ -52,7 +53,8 @@ import { UserNotAuthComponent } from './components/public/user-not-auth/user-not
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    ChartModule
   ],
   providers: [AuthguardService],
   bootstrap: [AppComponent]

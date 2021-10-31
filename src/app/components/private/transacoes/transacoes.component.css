@@ -58,14 +58,14 @@ hr {
 
 .dashboard {
     background: var(--var-branco);
-    box-shadow: 0px 5px 10px var(--var-cinza);
+    box-shadow: 0px 5px 5px var(--var-cinza);
     border-radius: 10px;
     padding: 2.4rem;
     padding-bottom: 0;
     margin-bottom: 2.4rem;
 }
 
-.dashboard__titulo {
+.dashboard__card__titulo {
     color: var(--var-preto);
     font-size: 2.4rem;
     font-family: var(--fonte-fred);
@@ -110,4 +110,26 @@ hr {
 
 .table__maxHeight {
     height: 527px;
+}
+
+/* Paineis do dashboard */
+
+.dashboard__titulo {
+    color: var(--preto);
+    font-family: var(--fonte-fred);
+    font-size: 7.2rem;
+    padding-bottom: 2.4rem;
+    text-align: center;
+}
+
+/* Paineis do dashboard */
+
+.dashboard__paineis {
+    max-width: 1260px;
+}
+
+/* Gráficos */
+
+.dashboard__charts {
+    padding-bottom: 2.4rem;
 }

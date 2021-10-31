@@ -45,6 +45,7 @@
     border: none;
     border-radius: 0;
     border-bottom: 2px solid var(--var-preto);
+    background-color: var(--var-branco);
     box-sizing: border-box;
     margin-top: 2.4rem;
     outline: none;

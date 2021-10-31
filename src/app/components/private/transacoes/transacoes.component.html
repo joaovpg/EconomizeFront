@@ -11,7 +11,7 @@
     <div class="row justify-content-between dashboard__container">
         <div class="col-md-3">
             <div class="dashboard">
-                <h3 class="dashboard__titulo">Gasto mensal</h3>
+                <h3 class="dashboard__card__titulo">Gasto mensal</h3>
                 <hr>
                 <table class="table table-borderless dashboard__table">
                     <tr class="dashboard__table__row align-right">
@@ -32,7 +32,7 @@
                 </table>
             </div>
             <div class="dashboard">
-                <h3 class="dashboard__titulo">Minhas contas</h3>
+                <h3 class="dashboard__card__titulo">Minhas contas</h3>
                 <hr>
                 <table class="table table-borderless dashboard__table">
                     <tr class="dashboard__table__row align-right">
@@ -83,12 +83,28 @@
             </div>
         </div>
     </div>
-    <div class="row justify-content-between">
-        <h1>Dashboard</h1>
+    <div class="row justify-content-between dashboard__paineis">
+        <h1 class="dashboard__titulo">Dashboard</h1>
         <hr>
         <div class="col-md-4">
+            <div class="dashboard">
+                <h3 class="dashboard__card__titulo">Gastos por categoria</h3>
+                <hr>
+                <div class="dashboard__charts">
+                    <p-chart type="pie" [data]="data" [options]="chartOptions" [style]="{'width': '40%'}"></p-chart>
+                </div>
 
+            </div>
         </div>
-        <div class="col-md-8"></div>
+        <div class="col-md-8">
+            <div class="dashboard">
+                <h3 class="dashboard__card__titulo">Análise mensal</h3>
+                <hr>
+                <div class="dashboard__charts">
+                    <p-chart type="line" [data]="data" [options]="basicOptions"></p-chart>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+<app-rodape></app-rodape>
