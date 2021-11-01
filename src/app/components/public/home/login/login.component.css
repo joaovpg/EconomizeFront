@@ -152,6 +152,7 @@
     font-family: var(--fonte-karla);
     font-size: 1.6rem;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .login__form__resetSenha:hover{

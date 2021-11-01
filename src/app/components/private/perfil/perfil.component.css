@@ -137,7 +137,9 @@
 }
 
 .botao__excluir {
+    margin-top: 2.4rem;
     background-color: var(--var-vermelho);
+    border: none;
 }
 
 /* Ilustração */

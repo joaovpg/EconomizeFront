@@ -101,11 +101,12 @@ hr {
     font-weight: normal;
 }
 
-.dashboard__table__icons > a{
+.dashboard__table__icons {
     color: var(--var-preto);
     font-size: 1.6rem;
     font-family: 'Material Icons', sans-serif;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .table__maxHeight {

@@ -28,6 +28,12 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AuthguardService } from './services/authguard.service';
 import { UserNotAuthComponent } from './components/public/user-not-auth/user-not-auth.component';
 import { ChartModule } from 'primeng/chart';
+import { NgbModal, NgbModalConfig, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
+import { NgbdModalEmail } from './components/modal/resetEmail/reset-email';
+import { NgbdModalExcluirConta } from './components/modal/excluirConta/excluir-conta';
+import { NgbdModalExcluirTransacao } from './components/modal/excluirTransacao/excluir-transacao';
 
 
 @NgModule({
@@ -45,6 +51,9 @@ import { ChartModule } from 'primeng/chart';
     TransacoesComponent,
     InvestimentosComponent,
     UserNotAuthComponent,
+    NgbdModalEmail,
+    NgbdModalExcluirConta,
+    NgbdModalExcluirTransacao
   ],
   imports: [
     BrowserModule,
@@ -54,9 +63,10 @@ import { ChartModule } from 'primeng/chart';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     AngularFireAuthModule,
-    ChartModule
+    ChartModule,
+    NgbModule
   ],
-  providers: [AuthguardService],
+  providers: [AuthguardService, NgbModalConfig, NgbModal],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
