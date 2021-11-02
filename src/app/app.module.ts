@@ -30,10 +30,13 @@ import { UserNotAuthComponent } from './components/public/user-not-auth/user-not
 import { ChartModule } from 'primeng/chart';
 import { NgbModal, NgbModalConfig, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-
+// Modais
 import { NgbdModalEmail } from './components/modal/resetEmail/reset-email';
 import { NgbdModalExcluirConta } from './components/modal/excluirConta/excluir-conta';
 import { NgbdModalExcluirTransacao } from './components/modal/excluirTransacao/excluir-transacao';
+import { NgbdModalEditarTransacao } from './components/modal/editarTransacao/editar-transacao';
+import { NgbdModalAdicionarTransacao } from './components/modal/adicionarTransacao/adicionar-transacao';
+import { BtnActionsComponent } from './components/private/btn-actions/btn-actions.component';
 
 
 @NgModule({
@@ -51,9 +54,13 @@ import { NgbdModalExcluirTransacao } from './components/modal/excluirTransacao/e
     TransacoesComponent,
     InvestimentosComponent,
     UserNotAuthComponent,
+    // Modais
     NgbdModalEmail,
     NgbdModalExcluirConta,
-    NgbdModalExcluirTransacao
+    NgbdModalExcluirTransacao,
+    NgbdModalEditarTransacao,
+    NgbdModalAdicionarTransacao,
+    BtnActionsComponent
   ],
   imports: [
     BrowserModule,

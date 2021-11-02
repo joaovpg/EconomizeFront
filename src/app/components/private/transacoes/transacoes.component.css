@@ -8,6 +8,7 @@
 .mes__control {
     border: none;
     background-color: var(--var-branco);
+    color: var(--var-preto);
     font-family: var(--fonte-fred);
     font-size: 7.2rem;
     text-align: center;
@@ -107,6 +108,15 @@ hr {
     font-family: 'Material Icons', sans-serif;
     text-decoration: none;
     cursor: pointer;
+    transition: all 200ms;
+}
+
+.dashboard__table__icons:nth-child(1):hover {
+    color: var(--var-amarelo);
+}
+
+.dashboard__table__icons:nth-child(2):hover {
+    color: var(--var-vermelho);
 }
 
 .table__maxHeight {
